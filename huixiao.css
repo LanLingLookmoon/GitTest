@@ -28,6 +28,39 @@ body3{
     left: 0;
     z-index: 99;
 }
+.head1{
+    background-color: #FFF;
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.head2{
+    background-color: #FFF;
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.head3{
+    background-color: #FFF;
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
 .head img{
     float: left;
     width: 11.5px;
