@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#FFF8F8F8;
+
+}
+.head{
+    background-color: #FFF;
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.head img{
+    float: left;
+    width: 11.5px;
+    height: 21px;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+.head .title{
+    font-size: 17px;
+    color: #282828;
+    font-weight: bolder;
+    margin:0 auto;
+    line-height: 44px;
+}
+
+.tab{
+    height: 40px;
+    width: 100%;
+    font-size: 13px;
+    background-color: #FFF;
+    position: fixed;
+    top: 44px;
+    left: 0;
+    color:#8C8C8C  ;
+    z-index: 99;
+}
+.tab .tab-item{
+    height: 40px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 40px; 
+}
+.tab .select{
+    color: rgba(255, 152, 0, 1);
+    border-bottom: 1.5px solid #FF9800 ;
+}
+#kehu{
+    margin-top: 94px;
+}
+.kehu{
+    width: 100%;
+    margin-top: 10px;
+}
+.kehu .card{
+
+    width: 92%;
+    height: 160px;
+    margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    position: relative;
+}
+.kehu .card .line1{
+    display: flex;
+    color: #282828 ;
+    font-size: 15px;
+    font-weight: bold;
+}
+.kehu .card .line1 .name{
+    margin: 10px auto 10px 5%;
+}
+.kehu .card .line1 .tel{
+    margin: 10px 0;
+}
+.kehu .card .line1 img{
+    height: 13.33px;
+    width: 13.33px;
+    margin-top:14px; 
+    margin-left:9px;
+    margin-right: 10px; 
+}
+.kehu .card .line1 hr{
+    width: 95%;
+    height: 0.5px;
+    background-color: #E6E6E6  ;
+    border:none;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.kehu .card .line2{
+    color:#8C8C8C ;
+    display: flex;
+    margin-left:5%;
+}
+.kehu .card .line2 ul{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 13px;
+}
+.kehu .card .line2 img{
+    width: 46.34px;
+    height: 46.34px;
+    margin:20px 17px auto auto;
+}
+.kehu .card .line2 hr{
+    width: 100%;
+    height: 0.5px;
+    background-color:#E6E6E6  ;
+    border:none;
+    position: absolute;
+    left: 0;
+    top: 80%;
+}
+.kehu .card .line3{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 13px;
+    margin-top: 6px;
+    color: #FF9800 ;
+}
+.kehu .card .line3 .yanzheng{
+    margin-right: 32px;
+}
+
+.remove{
+    margin-right: 32px;
+    color:#8C8C8C ;
+}
+/* 清除浮动 */
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+/* 显示隐藏 */
+.hide{
+    display: none;
+}
